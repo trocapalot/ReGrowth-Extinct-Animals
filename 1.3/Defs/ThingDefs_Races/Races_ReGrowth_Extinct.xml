@@ -425,7 +425,6 @@
 			<baseHealthScale>4.2</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<gestationPeriodDays>25</gestationPeriodDays>
-			<packAnimal>true</packAnimal>
 			<wildness>0.70</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
