@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ReGrowth 2: Extinct Animals</name>
+	<author>Helixien, Erin</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2266685892</url>
+	<packageId>ReGrowth2.ExtinctAnimals</packageId>
+	<description>Mod Version: 1.0
+	
+	Check the workshop page for information.</description>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>ReGrowth.BOTR.Core</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+	<loadBefore>
+		<li>Balthoraz.RimUniverse.BiomesModule</li>
+	</loadBefore>
+</ModMetaData>

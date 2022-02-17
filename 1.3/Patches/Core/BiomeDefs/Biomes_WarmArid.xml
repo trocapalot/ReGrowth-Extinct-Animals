@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+                    <value>
+                        <RG_Dodo>0.5</RG_Dodo>
+						<RG-Protoceratidae>0.2</RG-Protoceratidae>
+                        <RG_TerrorBird>0.4</RG_TerrorBird>
+                        <RG_Thrinaxodon>0.2</RG_Thrinaxodon>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
