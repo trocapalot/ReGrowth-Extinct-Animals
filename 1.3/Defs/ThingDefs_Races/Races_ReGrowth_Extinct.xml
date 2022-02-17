@@ -1082,7 +1082,7 @@
 			<leatherDef>Leather_Heavy</leatherDef>
 			<baseHungerRate>0.45</baseHungerRate>
 			<baseBodySize>2</baseBodySize>
-			<baseHealthScale>3.0</baseHealthScale>
+			<baseHealthScale>4.0</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
@@ -1137,8 +1137,9 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_DoesntFlee">
-
+			<li Class="AnimalBehaviours.CompProperties_DoesntFlee"/>
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
+				<rateInTicks>5</rateInTicks>
 			</li>
 		</comps>
 	</ThingDef>
@@ -1693,7 +1694,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>RG_Velociraptor</defName>
 		<label>velociraptor</label>
-		<description>Meaning “swift robber”, these turkey-sized predators were fearless, flightless, feathered little bastards that can hunt creatures up to twice their size by coordinating in packs. Of particular note are their enlarged sickle-shaped claws on each hindfoot with which they kick to slash, pierce and disembowel their prey.\n\nVelociraptors typically prefer to hunt alone so as to not share their quarry, behaving similarly to birds of prey by leaping onto smaller, easier targets and gripping them in their jaws and claws. They have excellent hearing for tracking prey and are very opportunistic, scavenging on carrion during droughts, famines or general periods of poor health.</description>
+		<description>Meaning “swift robber”, these turkey-sized predators are fearless, flightless, feathered little bastards that can hunt creatures up to twice their size by coordinating in packs. Of particular note are their enlarged sickle-shaped claws on each hindfoot with which they kick to slash, pierce and disembowel their prey.\n\nVelociraptors typically prefer to hunt alone so as to not share their quarry, behaving similarly to birds of prey by leaping onto smaller, easier targets and gripping them in their jaws and claws. They have excellent hearing for tracking prey and are very opportunistic, scavenging on carrion during droughts, famines, or general periods of poor health.\n\nBeing based on ancient InGen gen patterns, these specific Velociraptors are female only.</description>
 		<statBases>
 			<MoveSpeed>8</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -1792,7 +1793,14 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_DoesntFlee"/>
+			<li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
+				<healthPercent>50</healthPercent>
+				<tickInterval>100</tickInterval>
+				<mentalState>PanicFlee</mentalState>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Female</gender>
+			</li>
 		</comps>
 		<tradeTags>
 			<li>AnimalExotic</li>
