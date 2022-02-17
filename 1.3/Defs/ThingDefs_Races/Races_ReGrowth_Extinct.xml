@@ -135,7 +135,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothBaby_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothBaby</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -153,11 +153,11 @@
 					<drawSize>2.4</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothM_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothM</texPath>
 					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothF_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothF</texPath>
 					<drawSize>2.2</drawSize>
 				</femaleDessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -180,11 +180,11 @@
 					<drawSize>3.4</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothM_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothM</texPath>
 					<drawSize>3.6</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothF_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyMammoth/dessicated_ExtinctWoollyMammothF</texPath>
 					<drawSize>3.2</drawSize>
 				</femaleDessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -327,7 +327,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -345,11 +345,11 @@
 					<drawSize>2.10</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino</texPath>
 					<drawSize>2.20</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino</texPath>
 					<drawSize>2.05</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
@@ -367,11 +367,11 @@
 					<drawSize>2.8</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino</texPath>
 					<drawSize>3.0</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctWoollyRhino/dessicated_ExtinctWoollyRhino</texPath>
 					<drawSize>2.8</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
@@ -429,7 +429,7 @@
 			<wildness>0.70</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
-			<trainability>Advanced</trainability>
+			<trainability>None</trainability>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
@@ -600,7 +600,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.85</wildness>
-			<trainability>None</trainability>
+			<trainability>Advanced</trainability>
 			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -685,7 +685,7 @@
 	</PawnKindDef>
 	<!--====================  Protoceratidae ===========================-->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>RG-Protoceratidae</defName>
+		<defName>RG_Protoceratidae</defName>
 		<label>protoceratidae</label>
 		<devNote>erin-3</devNote>
 		<description>Similar in size and shape to deer or elk, these extinct creatures once lived for millions of years before humans came into being. They subsist on tough grasses and similar foods, and prefer temperate regions of forests and plains.\n\nProtoceratids are rather nimble herbivores with an unusual feature on the males. While having the regular horns near the ears, males feature rostral horns above the nose covered in skin. These horns, which are fused at the base and branch at the tip, are likely used as a sexual display and also used in sparring for competition of mates.</description>
@@ -793,9 +793,9 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>RG-Protoceratidae</defName>
+		<defName>RG_Protoceratidae</defName>
 		<label>protoceratidae</label>
-		<race>RG-Protoceratidae</race>
+		<race>RG_Protoceratidae</race>
 		<combatPower>65</combatPower>
 		<ecoSystemWeight>1.50</ecoSystemWeight>
 		<wildGroupSize>3~9</wildGroupSize>
@@ -808,7 +808,7 @@
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -832,7 +832,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -854,7 +854,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae_east</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctProtoceratidae/dessicated_protoceratidae</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -976,7 +976,7 @@
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodoDead</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodo</texPath>
 					<drawSize>0.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -990,7 +990,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodoDead</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodo</texPath>
 					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1004,7 +1004,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodoDead</texPath>
+					<texPath>Things/Pawn/Animal/ExtinctDodo/dessicated_ExtinctDodo</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1090,7 +1090,7 @@
 			<maxPreyBodySize>1.5</maxPreyBodySize>
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
-			<body>RG-TheropodWithClaws</body>
+			<body>RG_TheropodWithClaws</body>
 			<manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.65</manhunterOnDamageChance>
 			<nameOnTameChance>1</nameOnTameChance>
@@ -1634,9 +1634,7 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<allowedBiomes>
-					<bodyClock>Nocturnal</bodyClock>
-				</allowedBiomes>
+				<bodyClock>Nocturnal</bodyClock>
 			</li>
 		</modExtensions>
 	</ThingDef>

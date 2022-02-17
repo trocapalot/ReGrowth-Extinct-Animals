@@ -12,7 +12,7 @@
 					<def>Tail</def>
 					<coverage>0.15</coverage>
 					<groups>
-						<li>RG-EAP_TailAttackTool</li>
+						<li>RG_TailAttackTool</li>
 					</groups>
 				</li>
 				<li>
@@ -119,11 +119,11 @@
 							</groups>
 						</li>
 						<li>
-							<def>RG-EAP_FootClaw</def>
+							<def>RG_FootClaw</def>
 							<customLabel>left claw</customLabel>
 							<coverage>0.2</coverage>
 							<groups>
-								<li>RG-EAP_FootClawAttackTool</li>
+								<li>RG_FootClawAttackTool</li>
 							</groups>
 						</li>
 					</parts>
@@ -143,11 +143,11 @@
 							</groups>
 						</li>
 						<li>
-							<def>RG-EAP_FootClaw</def>
+							<def>RG_FootClaw</def>
 							<customLabel>right claw</customLabel>
 							<coverage>0.2</coverage>
 							<groups>
-								<li>RG-EAP_FootClawAttackTool</li>
+								<li>RG_FootClawAttackTool</li>
 							</groups>
 						</li>
 					</parts>
@@ -271,11 +271,11 @@
 							</groups>
 						</li>
 						<li>
-							<def>RG-EAP_FootClaw</def>
+							<def>RG_FootClaw</def>
 							<customLabel>left claw</customLabel>
 							<coverage>0.2</coverage>
 							<groups>
-								<li>RG-EAP_FootClawAttackTool</li>
+								<li>RG_FootClawAttackTool</li>
 							</groups>
 						</li>
 					</parts>
@@ -295,11 +295,11 @@
 							</groups>
 						</li>
 						<li>
-							<def>RG-EAP_FootClaw</def>
+							<def>RG_FootClaw</def>
 							<customLabel>right claw</customLabel>
 							<coverage>0.2</coverage>
 							<groups>
-								<li>RG-EAP_FootClawAttackTool</li>
+								<li>RG_FootClawAttackTool</li>
 							</groups>
 						</li>
 					</parts>
@@ -320,10 +320,10 @@
 					<coverage>0.10</coverage>
 					<parts>
 						<li>
-							<def>RG-EAP_Spikes</def>
+							<def>RG_Spikes</def>
 							<coverage>0.20</coverage>
 							<groups>
-								<li>RG-EAP_TailAttackTool</li>
+								<li>RG_TailAttackTool</li>
 							</groups>
 						</li>
 					</parts>

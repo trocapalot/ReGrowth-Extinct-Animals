@@ -52,7 +52,7 @@
 				<xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 				<value>
 					<RG_Dodo>0.05</RG_Dodo>
-					<RG-Protoceratidae>0.2</RG-Protoceratidae>
+					<RG_Protoceratidae>0.2</RG_Protoceratidae>
 					<RG_TerrorBird>0.3</RG_TerrorBird>
 					<RG_Megalenhydris>0.5</RG_Megalenhydris>
 					<RG_Thrinaxodon>0.8</RG_Thrinaxodon>
@@ -87,7 +87,7 @@
 				<xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 				<value>
 					<RG_Dodo>0.5</RG_Dodo>
-					<RG-Protoceratidae>0.2</RG-Protoceratidae>
+					<RG_Protoceratidae>0.2</RG_Protoceratidae>
 					<RG_TerrorBird>0.4</RG_TerrorBird>
 					<RG_Thrinaxodon>0.2</RG_Thrinaxodon>
 				</value>
