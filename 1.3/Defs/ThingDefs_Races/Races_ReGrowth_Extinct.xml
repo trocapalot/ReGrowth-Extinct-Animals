@@ -1694,7 +1694,7 @@
 					<texPath>Things/Pawn/Animal/ExtinctThrinaxodon/ExtinctThrinaxodon</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
-						<volume>(0.25, 0.3, 0.25)</volume>
+						<volume>(0.25, 0.1, 0.15)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
@@ -1708,7 +1708,7 @@
 					<texPath>Things/Pawn/Animal/ExtinctThrinaxodon/ExtinctThrinaxodon</texPath>
 					<drawSize>1.85</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
+						<volume>(0.3, 0.15, 0.2)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
