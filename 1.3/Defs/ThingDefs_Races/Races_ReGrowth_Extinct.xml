@@ -1511,6 +1511,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>1.5</drawSize>
+                    <shadowData>
+                      <volume>(0.3, 0.3, 0.3)</volume>
+                      <offset>(0,0,-0.1)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/dessicated_ExtinctMegalenhydris</texPath>
@@ -1521,6 +1525,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>1.75</drawSize>
+                    <shadowData>
+                      <volume>(0.4, 0.4, 0.4)</volume>
+                      <offset>(0,0,-0.15)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/dessicated_ExtinctMegalenhydris</texPath>
@@ -1531,6 +1539,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>2.0</drawSize>
+                    <shadowData>
+                      <volume>(0.5, 0.5, 0.5)</volume>
+                      <offset>(0,0,-0.2)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/dessicated_ExtinctMegalenhydris</texPath>
