@@ -1860,8 +1860,8 @@
 					<texPath>Things/Pawn/Animal/ExtinctRaptor/ExtinctRaptor</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
-						<volume>(0.25, 0.3, 0.25)</volume>
-						<offset>(0,0,-0.18)</offset>
+						<volume>(0.25, 0.1, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -1874,8 +1874,8 @@
 					<texPath>Things/Pawn/Animal/ExtinctRaptor/ExtinctRaptor</texPath>
 					<drawSize>1.95</drawSize>
 					<shadowData>
-						<volume>(0.25, 0.3, 0.25)</volume>
-						<offset>(0,0,-0.23)</offset>
+						<volume>(0.25, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -1888,8 +1888,8 @@
 					<texPath>Things/Pawn/Animal/ExtinctRaptor/ExtinctRaptor</texPath>
 					<drawSize>2.2</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.27)</offset>
+						<volume>(0.3, 0.25, 0.25)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
