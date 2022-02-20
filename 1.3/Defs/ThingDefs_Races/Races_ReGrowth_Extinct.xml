@@ -383,12 +383,12 @@
 		<label>woolly stegosaurus</label>
 		<description>A variation of the more common “roof lizard”, this creature is a herbivore characterized by their distinctive kite-shaped upright bony scales along the back which help regulate their body temperature and acts as a mating display.\n\nThe Woolly Stegosaurus finds their home in cold biomes, preferring to eat low-lying vegetation due to a short neck and small head. The spines on the end of the tail differ from the regular Stegosaurus, in that they are curved instead of straight. While this does hinder their ability to defend against predators somewhat, they are much better suited to digging into hard soil and flinging it away to exposed nutritious roots.</description>
 		<statBases>
-			<MoveSpeed>4.5</MoveSpeed>
+			<MoveSpeed>2.5</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
 			<ComfyTemperatureMax>25</ComfyTemperatureMax>
 			<MarketValue>1500</MarketValue>
 			<FilthRate>20</FilthRate>
-			<MeatAmount>80</MeatAmount>
+			<MeatAmount>120</MeatAmount>
 			<LeatherAmount>30</LeatherAmount>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
@@ -465,7 +465,7 @@
 		</race>
 		<comps>
 			<li Class="AnimalBehaviours.CompProperties_Regeneration">
-				<rateInTicks>60</rateInTicks>
+				<rateInTicks>120</rateInTicks>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RG_EggWoollyStegosaurusFertilized</eggFertilizedDef>
