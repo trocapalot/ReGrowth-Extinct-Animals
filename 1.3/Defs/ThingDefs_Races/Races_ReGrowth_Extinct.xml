@@ -6,11 +6,13 @@
 		<label>woolly mammoth</label>
 		<description>A previously extinct species whose closest relative were Asian elephants, their spoils were of a significant boon to the development of early human civilization back on Terra. Particularly their ivory which was used in art, tools and dwellings even after their extinction.\n\nWoolly Mammoths are roughly the size of African elephants and have both an outer and an undercoat of fur which allow them to easily survive arctic winters. Similarly, to elephants, their tusks and trunk are used for manipulating objects, fighting, and foraging, although their tusks are considerably longer, thicker and have a significant forward curve.</description>
 		<statBases>
-			<MoveSpeed>4.5</MoveSpeed>
+			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
 			<ComfyTemperatureMax>15</ComfyTemperatureMax>
 			<MarketValue>1300</MarketValue>
 			<FilthRate>32</FilthRate>
+			<MeatAmount>275</MeatAmount>
+			<LeatherAmount>125</LeatherAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -65,7 +67,7 @@
 			<gestationPeriodDays>48</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.80</wildness>
-			<lifeExpectancy>60</lifeExpectancy>
+			<lifeExpectancy>75</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<meatLabel>mammoth meat</meatLabel>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
@@ -209,11 +211,13 @@
 		<label>woolly rhinoceros</label>
 		<description>Thanks to their large size and massive horns, this formerly extinct species had very few predators when they reached adulthood. Their long, thick fur allowed them to comfortably live in arctic regions while subsisting on vegetation.\n\nWoolly Rhinoceroses rely on their long, sharp horn to dig through frozen terrain to feast on underlying roots, however it is also used during the rutting season as the males are incredibly territorial. Caution is advised to not threaten their territory or family, as a full-on charge can overturn a tank much less an armored human.</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>3.6</MoveSpeed>
 			<ComfyTemperatureMin>-75</ComfyTemperatureMin>
 			<ComfyTemperatureMax>15</ComfyTemperatureMax>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>1100</MarketValue>
 			<FilthRate>22</FilthRate>
+			<MeatAmount>235</MeatAmount>
+			<LeatherAmount>110</LeatherAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -404,8 +408,8 @@
 			<ComfyTemperatureMax>25</ComfyTemperatureMax>
 			<MarketValue>1500</MarketValue>
 			<FilthRate>20</FilthRate>
-			<MeatAmount>120</MeatAmount>
-			<LeatherAmount>30</LeatherAmount>
+			<MeatAmount>350</MeatAmount>
+			<LeatherAmount>175</LeatherAmount>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
 		</statBases>
@@ -441,13 +445,14 @@
 			<baseHealthScale>4.2</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<gestationPeriodDays>25</gestationPeriodDays>
+			<herdMigrationAllowed>true</herdMigrationAllowed>
 			<wildness>0.70</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
 			<trainability>None</trainability>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.75</manhunterOnDamageChance>
 			<meatLabel>stegosaurus meat</meatLabel>
 			<nuzzleMtbHours>275</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -484,11 +489,12 @@
 				<rateInTicks>120</rateInTicks>
 			</li>
 			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>RG_EggWoollyStegosaurusUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>RG_EggWoollyStegosaurusFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1</eggCountRange>
+				<eggCountRange>4</eggCountRange>
 			</li>
 			<li Class="CompProperties_Shearable">
 				<woolDef>RG_WoollyStegosaurusWool</woolDef>
@@ -561,8 +567,10 @@
 		<label>sabertooth squirrel</label>
 		<description>Technically not a formerly extinct species, the Saber-tooth Squirrel was brought forth due to a combination of archiver errors and overenthusiastic lab workers who wanted to push the limits of science and improve public perception.\n\nThese squirrels are distinguished by their bushy tails and two overgrown, protruding front teeth which are used to dig into tough soil or crack open the hard shells of various types of nuts.</description>
 		<statBases>
-			<MoveSpeed>6.1</MoveSpeed>
-			<MarketValue>70</MarketValue>
+			<MoveSpeed>5.1</MoveSpeed>
+			<MarketValue>270</MarketValue>
+			<MeatAmount>45</MeatAmount>
+			<LeatherAmount>35</LeatherAmount>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 		</statBases>
@@ -656,6 +664,7 @@
 			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 				<customThingToDig>RawPotatoes</customThingToDig>
 				<customAmountToDig>3</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
 			</li>
 		</comps>
 	</ThingDef>
@@ -702,13 +711,14 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>RG_Protoceratidae</defName>
 		<label>protoceratidae</label>
-		<devNote>erin-3</devNote>
 		<description>Similar in size and shape to deer or elk, these extinct creatures once lived for millions of years before humans came into being. They subsist on tough grasses and similar foods, and prefer temperate regions of forests and plains.\n\nProtoceratids are rather nimble herbivores with an unusual feature on the males. While having the regular horns near the ears, males feature rostral horns above the nose covered in skin. These horns, which are fused at the base and branch at the tip, are likely used as a sexual display and also used in sparring for competition of mates.</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<MarketValue>350</MarketValue>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<FilthRate>16</FilthRate>
+			<MeatAmount>150</MeatAmount>
+			<LeatherAmount>50</LeatherAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -772,7 +782,7 @@
 			<baseHungerRate>0.40</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			<meatLabel>proto venison</meatLabel>
+			<meatLabel>venison</meatLabel>
 			<wildness>0.75</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<nuzzleMtbHours>60</nuzzleMtbHours>
@@ -881,13 +891,15 @@
 		<label>dodo</label>
 		<description>A flightless bird rendered extinct at the hands of humans back in the 17th century, they have been portrayed as fat, clumsy creatures but were actually well-adapted to their ecosystem. Their last home was the forests along the dry coastal areas of an isolated island, and their diet consisted mostly of fruit which was digested with the help of gizzard stones.\n\nDodos were one of the first widely-known animals to have been brought to extinction solely by the influence of humans on Terra, and were flightless because of many centuries living without predators, laying only a single egg for their clutches. They prefer warmer climates with plentiful berry bushes and their only means of defense is their considerably large beak.</description>
 		<statBases>
-			<MoveSpeed>3.2</MoveSpeed>
-			<MarketValue>550</MarketValue>
+			<MoveSpeed>2.8</MoveSpeed>
+			<MarketValue>320</MarketValue>
+			<MeatAmount>50</MeatAmount>
+			<LeatherAmount>45</LeatherAmount>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<FilthRate>8</FilthRate>
 		</statBases>
 		<race>
-			<herdAnimal>false</herdAnimal>
+			<herdAnimal>True</herdAnimal>
 			<baseBodySize>0.70</baseBodySize>
 			<baseHealthScale>0.70</baseHealthScale>
 			<baseHungerRate>0.50</baseHungerRate>
@@ -895,7 +907,7 @@
 			<wildness>0.75</wildness>
 			<trainability>Intermediate</trainability>
 			<roamMtbDays>3</roamMtbDays>
-			<lifeExpectancy>9</lifeExpectancy>
+			<lifeExpectancy>6</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
@@ -1031,12 +1043,14 @@
 		<label>arctic drak</label>
 		<description>An unusual result of trying to bring back extinct animals through messy data, this lizard-bird hybrid very likely never actually existed previously. While not much of a runner, they are however well adapted to arctic environments and can swim long distances in the freezing water in search of prey.\n\nArctic Draks are solitary creatures that prefer to hunt prey that surface at breathing holes, with remarkably efficient fur of hollow hair strands similar to a polar bear. They have long, powerful arms ending in clawed, webbed-fingers, and males additionally sport plumage at the back of the skull to attract mates.</description>
 		<statBases>
-			<MoveSpeed>4.6</MoveSpeed>
+			<MoveSpeed>4.2</MoveSpeed>
 			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 			<MarketValue>1850</MarketValue>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<FilthRate>18</FilthRate>
+			<MeatAmount>175</MeatAmount>
+			<LeatherAmount>120</LeatherAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -1146,7 +1160,8 @@
 		</tradeTags>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>RG_DrakEgg</eggFertilizedDef>
+				<eggUnfertilizedDef>RG_DrakEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>RG_DrakEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -1238,9 +1253,11 @@
 		<label>terror bird</label>
 		<description>A once extinct species of large carnivorous flightless birds who are described by locals by the far more apt moniker “terror birds'' due to the bowel-loosening terror caused by their sighting.\n\nPhorusrhacids have large, sharp beaks and powerful neck muscles that allow them to peck with a force strong enough to shatter bones and rip the flesh straight off their prey. Their legs are accented by large, sharp talons which allow them to quickly pursue their targets, following up with vicious kicks to disembowel them or hold them down while they strike down with their beak into vital organs.</description>
 		<statBases>
-			<MoveSpeed>7</MoveSpeed>
+			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-12</ComfyTemperatureMin>
 			<MarketValue>1200</MarketValue>
+			<MeatAmount>120</MeatAmount>
+			<LeatherAmount>75</LeatherAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -1279,6 +1296,7 @@
 		</tools>
 		<comps>
 			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>RG_EggTerrorBirdUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>RG_EggTerrorBirdFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>20</eggLayIntervalDays>
@@ -1287,7 +1305,7 @@
 			</li>
 		</comps>
 		<race>
-			<herdAnimal>true</herdAnimal>
+			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<body>Bird</body>
 			<herdMigrationAllowed>true</herdMigrationAllowed>
@@ -1352,10 +1370,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/ExtinctTerrorBird</texPath>
 					<drawSize>1.3</drawSize>
-                    <shadowData>
-                        <volume>(0.4, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/dessicated_ExtinctTerrorBird</texPath>
@@ -1366,10 +1384,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/ExtinctTerrorBird</texPath>
 					<drawSize>2.3</drawSize>
-                    <shadowData>
-                        <volume>(0.6, 0.45, 0.45)</volume>
-                        <offset>(0,0,-0.25)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/dessicated_ExtinctTerrorBird</texPath>
@@ -1380,10 +1398,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/ExtinctTerrorBird</texPath>
 					<drawSize>3.3</drawSize>
-                    <shadowData>
-                        <volume>(0.8, 0.6, 0.6)</volume>
-                        <offset>(0,0,-0.3)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctTerrorBird/dessicated_ExtinctTerrorBird</texPath>
@@ -1398,9 +1416,11 @@
 		<label>megalenhydris</label>
 		<description>A semi-aquatic mammal, these giant otters have diets consisting mostly of shellfish, crustaceans and various hardy vegetation. If hungry, they may be driven to consuming larger, weakened mammals but typically migrate to more bountiful areas.\n\nMegalenhydris are fantastic swimmers due to both their flexible body and oily, water-repulsive fur. Their long tail ends with a flat fin which is both used for high aquatic mobility but can also be used defensively by effectively slapping predators with it in a whip-like fashion.</description>
 		<statBases>
-			<MoveSpeed>3.9</MoveSpeed>
+			<MoveSpeed>3.6</MoveSpeed>
 			<MarketValue>270</MarketValue>
 			<ComfyTemperatureMin>-12</ComfyTemperatureMin>
+			<MeatAmount>85</MeatAmount>
+			<LeatherAmount>67</LeatherAmount>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<FilthRate>4</FilthRate>
 		</statBases>
@@ -1477,7 +1497,7 @@
 					<li>(2, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>12</lifeExpectancy>
+			<lifeExpectancy>18</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -1519,7 +1539,7 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>1.5</drawSize>
-                    <!-- <shadowData>
+					<!-- <shadowData>
                       <volume>(0.3, 0.1, 0.1)</volume>
                       <offset>(0,0,0)</offset>
                     </shadowData> I've noticed that babies with little drawSize don't have shadows-->
@@ -1533,10 +1553,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>1.75</drawSize>
-                    <shadowData>
-                      <volume>(0.4, 0.2, 0.2)</volume>
-                      <offset>(0,0,0)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.4, 0.2, 0.2)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/dessicated_ExtinctMegalenhydris</texPath>
@@ -1547,10 +1567,10 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/ExtinctMegalenhydris</texPath>
 					<drawSize>2.0</drawSize>
-                    <shadowData>
-                      <volume>(0.5, 0.3, 0.3)</volume>
-                      <offset>(0,0,-0.05)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.5, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ExtinctMegalenhydris/dessicated_ExtinctMegalenhydris</texPath>
@@ -1566,8 +1586,10 @@
 		<description>A small carnivorous synapsid roughly similar in size to foxes with diets that typically consist of insects and small herbivores. Their tendency to burrow helped them survive through one of the mass extinction events back on Earth.\n\nThe Thrinaxodon is native to Tundra and Boreal Forest regions, able to survive the cold both due to their fur and burrowing habits. They are also a social creature and often found in packs, which usually result in them hunting larger prey when there is a lack of suitable low-risk sustenance.</description>
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
-			<MarketValue>150</MarketValue>
+			<MarketValue>120</MarketValue>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MeatAmount>55</MeatAmount>
+			<LeatherAmount>27</LeatherAmount>
 			<FilthRate>2</FilthRate>
 		</statBases>
 		<tools>
@@ -1614,7 +1636,7 @@
 			<animalType>Canine</animalType>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
-			<maxPreyBodySize>0.9</maxPreyBodySize>
+			<maxPreyBodySize>0.5</maxPreyBodySize>
 			<petness>0.1</petness>
 			<baseBodySize>0.76</baseBodySize>
 			<baseHungerRate>0.25</baseHungerRate>
@@ -1628,12 +1650,6 @@
 			<nuzzleMtbHours>240</nuzzleMtbHours>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-			<wildBiomes>
-				<BorealForest>1</BorealForest>
-				<Tundra>0.4</Tundra>
-				<ColdBog>0.2</ColdBog>
-				<IceSheet>0.1</IceSheet>
-			</wildBiomes>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -1644,7 +1660,7 @@
 					<li>(3, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>12</lifeExpectancy>
+			<lifeExpectancy>10</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -1674,6 +1690,14 @@
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
 				<bodyClock>Nocturnal</bodyClock>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>RG_ThrinaxodonEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>RG_ThrinaxodonEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>20</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>7</eggCountRange>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -1733,13 +1757,13 @@
 		<label>velociraptor</label>
 		<description>Meaning “swift robber”, these turkey-sized predators are fearless, flightless, feathered little bastards that can hunt creatures up to twice their size by coordinating in packs. Of particular note are their enlarged sickle-shaped claws on each hindfoot with which they kick to slash, pierce and disembowel their prey.\n\nVelociraptors typically prefer to hunt alone so as to not share their quarry, behaving similarly to birds of prey by leaping onto smaller, easier targets and gripping them in their jaws and claws. They have excellent hearing for tracking prey and are very opportunistic, scavenging on carrion during droughts, famines, or general periods of poor health.\n\nBeing based on ancient InGen gen patterns, these specific Velociraptors are female only.</description>
 		<statBases>
-			<MoveSpeed>8</MoveSpeed>
+			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>25</ComfyTemperatureMax>
 			<MarketValue>2000</MarketValue>
 			<FilthRate>2</FilthRate>
-			<MeatAmount>100</MeatAmount>
-			<LeatherAmount>20</LeatherAmount>
+			<MeatAmount>75</MeatAmount>
+			<LeatherAmount>67</LeatherAmount>
 			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 		</statBases>
@@ -1750,7 +1774,7 @@
 					<li>Scratch</li>
 					<li>Stab</li>
 				</capacities>
-				<power>6</power>
+				<power>8</power>
 				<cooldownTime>1.1</cooldownTime>
 				<linkedBodyPartsGroup>RG_FootClawAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.3</chanceFactor>
@@ -1761,7 +1785,7 @@
 					<li>Scratch</li>
 					<li>Stab</li>
 				</capacities>
-				<power>6</power>
+				<power>8</power>
 				<cooldownTime>1.1</cooldownTime>
 				<linkedBodyPartsGroup>RG_FootClawAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.3</chanceFactor>
@@ -1771,7 +1795,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>8</power>
+				<power>10</power>
 				<cooldownTime>1.3</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.4</chanceFactor>
@@ -1784,15 +1808,15 @@
 			<leatherDef>Leather_Bird</leatherDef>
 			<baseHungerRate>0.20</baseHungerRate>
 			<baseBodySize>0.75</baseBodySize>
-			<maxPreyBodySize>2</maxPreyBodySize>
+			<maxPreyBodySize>3</maxPreyBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.9</wildness>
 			<petness>0.1</petness>
-			<lifeExpectancy>35</lifeExpectancy>
-			<trainability>Intermediate</trainability>
+			<lifeExpectancy>15</lifeExpectancy>
+			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<meatLabel>raptor meat</meatLabel>
@@ -1825,10 +1849,9 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RG_EggVelociraptorFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>30</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1</eggCountRange>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>27</eggLayIntervalDays>
+				<eggCountRange>3</eggCountRange>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
 				<healthPercent>50</healthPercent>
