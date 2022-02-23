@@ -1687,10 +1687,7 @@
 			<li>AnimalCommon</li>
 			<li>AnimalExtinct</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
-			</li>
+		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>RG_ThrinaxodonEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>RG_ThrinaxodonEggFertilized</eggFertilizedDef>
@@ -1698,6 +1695,11 @@
 				<eggLayIntervalDays>20</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>7</eggCountRange>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
 			</li>
 		</modExtensions>
 	</ThingDef>
