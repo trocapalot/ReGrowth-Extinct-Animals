@@ -18,6 +18,7 @@
 	<loadAfter>
 		<li>ReGrowth.BOTR.Core</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>VanillaExpanded.VCEF</li>
 	</loadAfter>
 	<loadBefore>
 		<li>Balthoraz.RimUniverse.BiomesModule</li>

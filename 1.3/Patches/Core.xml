@@ -8,6 +8,7 @@
 					<RG_WoollyMammoth>0.5</RG_WoollyMammoth>
 					<RG_WoollyRhinoceros>0.2</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.2</RG_ArcticDrak>
+					<RG_ArcticLuizicus>0.3</RG_ArcticLuizicus>
 					<RG_WoollyStegosaurus>0.4</RG_WoollyStegosaurus>
 					<RG_SabertoothSquirrel>0.8</RG_SabertoothSquirrel>
 					<RG_Velociraptor>0.3</RG_Velociraptor>
@@ -19,6 +20,7 @@
 					<RG_WoollyMammoth>0.5</RG_WoollyMammoth>
 					<RG_WoollyRhinoceros>0.5</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.3</RG_ArcticDrak>
+					<RG_ArcticLuizicus>0.4</RG_ArcticLuizicus>
 					<RG_SabertoothSquirrel>1.2</RG_SabertoothSquirrel>
 					<RG_Velociraptor>0.4</RG_Velociraptor>
 				</value>
@@ -29,6 +31,7 @@
 					<RG_WoollyMammoth>0.3</RG_WoollyMammoth>
 					<RG_SabertoothSquirrel>1.0</RG_SabertoothSquirrel>
 					<RG_Velociraptor>0.1</RG_Velociraptor>
+					<RG_ArcticLuizicus>0.1</RG_ArcticLuizicus>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -36,6 +39,7 @@
 				<value>
 					<RG_WoollyRhinoceros>0.1</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.1</RG_ArcticDrak>
+					<RG_ArcticLuizicus>0.15</RG_ArcticLuizicus>
 					<RG_SabertoothSquirrel>0.1</RG_SabertoothSquirrel>
 					<RG_WoollyStegosaurus>0.05</RG_WoollyStegosaurus>
 				</value>
@@ -44,6 +48,7 @@
 				<xpath>/Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
 				<value>
 					<RG_ArcticDrak>0.1</RG_ArcticDrak>
+					<RG_ArcticLuizicus>0.15</RG_ArcticLuizicus>
 					<RG_SabertoothSquirrel>0.1</RG_SabertoothSquirrel>
 					<RG_WoollyStegosaurus>0.05</RG_WoollyStegosaurus>
 				</value>

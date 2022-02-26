@@ -1,9 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThingDef ParentName="EggFertBase">
+        <defName>RG_ArcticLuizicusEggUnfertilized</defName>
+        <label>arctic luizicus (unfert.)</label>
+        <description>A unfertilized arctic luizicus egg. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/AnimalProductRaw/DinosaurEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(146,102,66)</color>
+            <drawSize>(1.2,1.2)</drawSize>
+        </graphicData>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <statBases>
+            <MarketValue>95.0</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherPawn>RG_ArcticDrak</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="EggFertBase">
+        <defName>RG_ArcticLuizicusEggFertilized</defName>
+        <label>arctic luizicus (fert.)</label>
+        <description>A fertilized arctic luizicus egg. If all goes well, it should hatch into a baby arctic luizicus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/AnimalProductRaw/DinosaurEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(146,102,66)</color>
+            <drawSize>(1.2,1.2)</drawSize>
+        </graphicData>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <statBases>
+            <MarketValue>95.0</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherPawn>RG_ArcticDrak</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="EggFertBase">
         <defName>RG_DrakEggUnfertilized</defName>
         <label>drak egg (unfert.)</label>
-        <description>A unfertilized drak egg. If all goes well, it should hatch into a baby drak. It can be eaten raw, but it's much better cooked.</description>
+        <description>A unfertilized drak egg. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <texPath>Things/Item/Resource/AnimalProductRaw/DinosaurEgg</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -94,7 +136,7 @@
     <ThingDef ParentName="EggFertBase">
         <defName>RG_ThrinaxodonEggFertilized</defName>
         <label>thrinaxodon egg (fert.)</label>
-        <description>A fertilized thrinaxodon egg. If all goes well, it should hatch into a dodo. It can be eaten raw, but it's much better cooked.</description>
+        <description>A fertilized thrinaxodon egg. If all goes well, it should hatch into a baby thrinaxodon. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -115,7 +157,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RG_EggTerrorBirdUnfertilized</defName>
 		<label>terror bird egg (unfert.)</label>
-		<description>A unfertilized terror bird egg. If all goes well, it should hatch into a baby terror bird. It can be eaten raw, but it's much better cooked.</description>
+		<description>A unfertilized terror bird egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -157,7 +199,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RG_EggWoollyStegosaurusUnfertilized</defName>
 		<label>woolly stegosaurus(unfert.)</label>
-		<description>A unfertilized woolly stegosaurus egg. If all goes well, it should hatch into a baby woolly stegosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<description>A unfertilized woolly stegosaurus egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
