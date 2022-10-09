@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>ReGrowth Remastered: Extinct Animals</name>
+	<name>ReGrowth: Extinct Animals</name>
 	<author>Helixien, Erin, Luizi</author>
 	<supportedVersions>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2266685892</url>
-	<packageId>ReGrowth2.ExtinctAnimals</packageId>
-	<description>Mod Version: 1.0</description>
+	<packageId>ReGrowth.BOTR.ExtinctAnimalsPack</packageId>
+	<description>text.todo</description>
 	<modDependencies>
 		<li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ReGrowth.BOTR.Core</packageId>
+			<displayName>ReGrowth: Core</displayName>
+			<downloadUrl>https://github.com/Helixien/ReGrowth-Core-and-Framework</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
