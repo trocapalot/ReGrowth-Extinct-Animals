@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
     <ThingDef ParentName="WoolBase">
-        <defName>RG-EAP_WoollyRhinocerosWool</defName>
+        <defName>RG_WoollyRhinocerosWool</defName>
         <label>woolly rhinoceros wool</label>
         <description>Thick and coarse wool of a woolly rhinoceros. Quite warm.</description>
         <graphicData>
@@ -19,5 +18,40 @@
             <MarketValue>6.5</MarketValue>
         </statBases>
     </ThingDef>
-
+	<ThingDef ParentName="WoolBase">
+		<defName>RG_WoollyStegosaurusWool</defName>
+		<label>woolly stegosaurus wool</label>
+		<description>Thick and coarse wool of a woolly stegosaurus. Quite warm.</description>
+		<graphicData>
+			<color>(103,118,139)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(103,118,139)</color>
+			<commonality>0.04</commonality>
+		</stuffProps>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.90</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>19</StuffPower_Insulation_Heat>
+			<MarketValue>6.5</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>RG_ArcticLuizicusWool</defName>
+		<label>arctic luizicus wool</label>
+		<description>Thick and coarse wool of a arctic luizicus. Quite warm.</description>
+		<graphicData>
+			<color>(103,118,139)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(103,118,139)</color>
+			<commonality>0.04</commonality>
+		</stuffProps>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.90</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>19</StuffPower_Insulation_Heat>
+			<MarketValue>6.5</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>
