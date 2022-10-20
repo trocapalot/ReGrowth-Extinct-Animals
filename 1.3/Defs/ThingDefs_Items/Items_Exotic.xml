@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
     <ThingDef ParentName="ResourceVerbBase">
-        <defName>RG_WoollyMammothTusk</defName>
+        <defName>RG-EAP_WoollyMammothTusk</defName>
         <label>mammoth tusk</label>
         <description>The tusk of a mammoth. It can be sold to traders for silver.</description>
         <graphicData>
@@ -48,4 +49,5 @@
             <li>AnimalPart</li>
         </thingSetMakerTags>
     </ThingDef>
+
 </Defs>
