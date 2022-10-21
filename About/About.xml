@@ -9,7 +9,7 @@
 	</supportedVersions>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2266685892</url>
 	<packageId>ReGrowth.BOTR.ExtinctAnimalsPack</packageId>
-	<description>text.todo</description>
+	<description>This module adds 11 new extinct animals to Rimworld, brought back to life with the wonders of genetic engineering. It is quite that simple actually. All of them fit perfectly into vanilla Rimworld and will spawn in their respective biomes, but are rarer than normal vanilla animals.</description>
 	<modDependencies>
 		<li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
