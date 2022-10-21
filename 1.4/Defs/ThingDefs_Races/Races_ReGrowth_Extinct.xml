@@ -733,7 +733,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>RG_Dodo</defName>
 		<label>dodo</label>
-		<description>A flightless bird rendered extinct at the hands of humans back in the 17th century, they have been portrayed as fat, clumsy creatures but were actually well-adapted to their ecosystem. Their last home was the forests along the dry coastal areas of an isolated island, and their diet consisted mostly of fruit which was digested with the help of gizzard stones.\n\nDodos were one of the first widely-known animals to have been brought to extinction solely by the influence of humans on Terra, and were flightless because of many centuries living without predators, laying only a single egg for their clutches. They prefer warmer climates with plentiful berry bushes and their only means of defense is their considerably large beak.</description>
+		<description>A flightless bird rendered extinct at the hands of ancient humans, they have been portrayed as fat, clumsy creatures but were actually well-adapted to their ecosystem. Their last home was the forests along the dry coastal areas of an isolated island, and their diet consisted mostly of fruit which was digested with the help of gizzard stones.\n\nDodos were one of the first widely-known animals to have been brought to extinction solely by the influence of humans on Terra, and were flightless because of many centuries living without predators, laying only a single egg for their clutches. They prefer warmer climates with plentiful berry bushes and their only means of defense is their considerably large beak.</description>
 		<statBases>
 			<MoveSpeed>3.2</MoveSpeed>
 			<MarketValue>120</MarketValue>
