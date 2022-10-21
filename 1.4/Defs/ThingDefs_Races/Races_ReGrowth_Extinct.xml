@@ -525,9 +525,10 @@
 		<wildGroupSize>3~5</wildGroupSize>
 		<lifeStages>
 			<li>
+				<label>hatchling</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.4, 0.25)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -535,13 +536,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
-					<drawSize>2.8</drawSize>
+					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.35)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -549,13 +550,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
-					<drawSize>2.8</drawSize>
+					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(1.0, 0.8, 0.6)</volume>
 						<offset>(0,0,-0.4)</offset>
@@ -563,7 +564,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
@@ -1009,7 +1010,7 @@
 		<wildGroupSize>2~4</wildGroupSize>
 		<lifeStages>
 			<li>
-					<label>chick</label>
+				<label>chick</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/TerrorBird</texPath>
 					<drawSize>0.8</drawSize>
@@ -1153,10 +1154,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.25</minAge>
-                    <soundWounded>RG_VelocTheropod_Wounded</soundWounded>
-                    <soundDeath>RG_VelocTheropod_Death</soundDeath>
-                    <soundCall>RG_VelocTheropod_Call</soundCall>
-                    <soundAngry>RG_VelocTheropod_Angry</soundAngry>
+					<soundWounded>RG_VelocTheropod_Wounded</soundWounded>
+					<soundDeath>RG_VelocTheropod_Death</soundDeath>
+					<soundCall>RG_VelocTheropod_Call</soundCall>
+					<soundAngry>RG_VelocTheropod_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -1261,8 +1262,8 @@
 		<description>Meaning “swift robber”, these turkey-sized predators are fearless, flightless, feathered little bastards that can hunt creatures up to twice their size by coordinating in packs. Of particular note are their enlarged sickle-shaped claws on each hindfoot with which they kick to slash, pierce and disembowel their prey.\n\nVelociraptors typically prefer to hunt alone so as to not share their quarry, behaving similarly to birds of prey by leaping onto smaller, easier targets and gripping them in their jaws and claws. They have excellent hearing for tracking prey and are very opportunistic, scavenging on carrion during droughts, famines, or general periods of poor health.\n\nBeing based on ancient InGen gen patterns, these specific Velociraptors are female only.</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
-            <ComfyTemperatureMin>0</ComfyTemperatureMin>
-            <ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
 			<MarketValue>450</MarketValue>
 			<FilthRate>2</FilthRate>
 		</statBases>
@@ -1298,75 +1299,75 @@
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
 			</li>
-            <li>
-                <label>head</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>5</power>
-                <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-                <chanceFactor>0.2</chanceFactor>
-            </li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<race>
 			<body>RG_TheropodWithClaws</body>
-            <baseBodySize>0.75</baseBodySize>
-            <baseHealthScale>1.5</baseHealthScale>
-            <baseHungerRate>0.30</baseHungerRate>
-          <herdAnimal>true</herdAnimal>
+			<baseBodySize>0.75</baseBodySize>
+			<baseHealthScale>1.5</baseHealthScale>
+			<baseHungerRate>0.30</baseHungerRate>
+			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
-            <leatherDef>RG_DinosaursHideMedium</leatherDef>
+			<leatherDef>RG_DinosaursHideMedium</leatherDef>
 			<maxPreyBodySize>2.5</maxPreyBodySize>
-            <foodType>CarnivoreAnimalStrict</foodType>
+			<foodType>CarnivoreAnimalStrict</foodType>
 			<wildness>0.5</wildness>
-            <petness>1</petness>
-            <nameOnTameChance>1</nameOnTameChance>
+			<petness>1</petness>
+			<nameOnTameChance>1</nameOnTameChance>
 			<lifeExpectancy>10</lifeExpectancy>
 			<trainability>Advanced</trainability>
-            <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
-            <meatLabel>theropod meat</meatLabel>
-            <ageGenerationCurve>
-                <points>
-                    <li>(0.0,0)</li>
-                    <li>(0.1,350)</li>
-                    <li>(0.9,150)</li>
-                    <li>(1.5,5)</li>
-                    <li>(20,4)</li>
-                    <li>(65,0)</li>
-                </points>
-            </ageGenerationCurve>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<meatLabel>theropod meat</meatLabel>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,5)</li>
+					<li>(20,4)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
 			<lifeStageAges>
-                <li>
-                    <def>AnimalBabyTiny</def>
-                    <minAge>0</minAge>
-                </li>
-                <li>
-                    <def>AnimalJuvenile</def>
-                    <minAge>0.11</minAge>
-                </li>
-                <li>
-                    <def>AnimalAdult</def>
-                    <minAge>0.25</minAge>
-                    <soundWounded>RG_VelocTheropod_Wounded</soundWounded>
-                    <soundDeath>RG_VelocTheropod_Death</soundDeath>
-                    <soundCall>RG_VelocTheropod_Call</soundCall>
-                    <soundAngry>RG_VelocTheropod_Angry</soundAngry>
-                </li>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.11</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.25</minAge>
+					<soundWounded>RG_VelocTheropod_Wounded</soundWounded>
+					<soundDeath>RG_VelocTheropod_Death</soundDeath>
+					<soundCall>RG_VelocTheropod_Call</soundCall>
+					<soundAngry>RG_VelocTheropod_Angry</soundAngry>
+				</li>
 			</lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RG_EggVelociraptorFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>3</eggFertilizationCountMax>
-                <eggLayIntervalDays>10</eggLayIntervalDays>
-                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~3</eggCountRange>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
 				<healthPercent>20</healthPercent>
@@ -1376,21 +1377,21 @@
 			<li Class="AnimalBehaviours.CompProperties_FixedGender">
 				<gender>Female</gender>
 			</li>
-            <li MayRequire="BiomesTeam.BiomesPrehistoric" Class="BiomesCore.CompProperties_PackHunter">
-                <joinHuntRange>24</joinHuntRange>
-                <packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
-            </li>
-            <li MayRequire="BiomesTeam.BiomesPrehistoric" Class="BiomesCore.CompProperties_PackDefense">
-                <baseChance>0.3</baseChance>
-                <attackerMaxDistance>30</attackerMaxDistance>
-                <joinDefenseRange>20</joinDefenseRange>
-                <joinMaxPain>0.3</joinMaxPain>
-                <maxNumMeleeAttacks>3</maxNumMeleeAttacks>
-                <expiryInterval>500</expiryInterval>
-                <attackDoorIfTargetLost>true</attackDoorIfTargetLost>
-                <canBashFences>false</canBashFences>
-                <predatorConfidencePenalty>100</predatorConfidencePenalty>
-            </li>
+			<li MayRequire="BiomesTeam.BiomesPrehistoric" Class="BiomesCore.CompProperties_PackHunter">
+				<joinHuntRange>24</joinHuntRange>
+				<packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
+			</li>
+			<li MayRequire="BiomesTeam.BiomesPrehistoric" Class="BiomesCore.CompProperties_PackDefense">
+				<baseChance>0.3</baseChance>
+				<attackerMaxDistance>30</attackerMaxDistance>
+				<joinDefenseRange>20</joinDefenseRange>
+				<joinMaxPain>0.3</joinMaxPain>
+				<maxNumMeleeAttacks>3</maxNumMeleeAttacks>
+				<expiryInterval>500</expiryInterval>
+				<attackDoorIfTargetLost>true</attackDoorIfTargetLost>
+				<canBashFences>false</canBashFences>
+				<predatorConfidencePenalty>100</predatorConfidencePenalty>
+			</li>
 		</comps>
 		<tradeTags>
 			<li>AnimalExotic</li>
@@ -1402,19 +1403,19 @@
 		<defName>RG_Velociraptor</defName>
 		<label>velociraptor</label>
 		<race>RG_Velociraptor</race>
-        <combatPower>175</combatPower>
-        <wildGroupSize>2~4</wildGroupSize>
-				<ecoSystemWeight>0.4</ecoSystemWeight>
+		<combatPower>175</combatPower>
+		<wildGroupSize>2~4</wildGroupSize>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
 		<lifeStages>
 			<li>
-							<label>hatchling</label>
+				<label>hatchling</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/Velociraptor/Velociraptor</texPath>
-                    <drawSize>0.8</drawSize>
+					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/Velociraptor/dessicated_Velociraptor</texPath>
-                    <drawSize>0.8</drawSize>
+					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -1495,7 +1496,7 @@
 			</li>
 		</tools>
 		<race>
-      <body>QuadrupedAnimalWithPawsAndTail</body>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.5</maxPreyBodySize>
 			<baseBodySize>0.76</baseBodySize>
@@ -1534,10 +1535,10 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RG_EggThrinaxodonFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>4</eggFertilizationCountMax>
-                <eggLayIntervalDays>6</eggLayIntervalDays>
-                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~4</eggCountRange>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>6</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~4</eggCountRange>
 			</li>
 		</comps>
 		<tradeTags>
@@ -1549,7 +1550,6 @@
 				<bodyClock>Nocturnal</bodyClock>
 			</li>
 		</modExtensions>
-
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>RG_Thrinaxodon</defName>
@@ -1595,6 +1595,335 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/dessicated_Thrinaxodon</texPath>
 					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!--====================  (Synthetion) Protoceratidae ===========================-->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>RG_Synthetion</defName>
+		<label>synthetion</label>
+		<description>A large member of the deer family, these extinct creatures once lived for millions of years before humans came into being. They subsist on tough grasses and similar foods, and prefer temperate regions of forests and plains.\n\nProtoceratids are rather nimble herbivores with an unusual feature on the males. While having the regular horns near the ears, males feature rostral horns above the nose covered in skin. These horns, which are fused at the base and branch at the tip, are likely used as a sexual display and also used in sparring for competition of mates.</description>
+		<statBases>
+			<MoveSpeed>5</MoveSpeed>
+			<MarketValue>300</MarketValue>
+			<ComfyTemperatureMin>-12</ComfyTemperatureMin>
+			<FilthRate>16</FilthRate>
+		</statBases>
+		<tools>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>true</herdMigrationAllowed>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHealthScale>1.8</baseHealthScale>
+			<baseHungerRate>0.275</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<wildness>0.75</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<lifeExpectancy>18</lifeExpectancy>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Deer_Wounded</soundWounded>
+					<soundDeath>Pawn_Deer_Death</soundDeath>
+					<soundCall>Pawn_Deer_Call</soundCall>
+					<soundAngry>Pawn_Deer_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<headPosPerRotation>
+				<li>(0.0, 0, 0.2)</li>
+				<li>(0.25, 0, 0.12)</li>
+				<li>(0.0, 0, 0.05)</li>
+				<li>(-0.25, 0, 0.12)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+			<li>AnimalExtinct</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RG_Synthetion</defName>
+		<label>synthetion</label>
+		<race>RG_Synthetion</race>
+		<combatPower>55</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>3~9</wildGroupSize>
+		<labelMale>buck</labelMale>
+		<labelFemale>doe</labelFemale>
+		<lifeStages>
+			<li>
+				<label>calf</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionM</texPath>
+					<drawSize>1.4</drawSize>
+					<color>(140,74,41)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionM</texPath>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<drawSize>1.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!--====================  Megalenhydris ===========================-->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>RG_Megalenhydris</defName>
+		<label>megalenhydris</label>
+		<description>A semi-aquatic mammal, these giant otters have diets consisting mostly of shellfish, crustaceans and various hardy vegetation. If hungry, they may be driven to consuming larger, weakened mammals but typically migrate to more bountiful areas.\n\nMegalenhydris are fantastic swimmers due to both their flexible body and oily, water-repulsive fur. Their long tail ends with a flat fin which is both used for high aquatic mobility but can also be used defensively by effectively slapping predators with it in a whip-like fashion.</description>
+		<statBases>
+			<MoveSpeed>3.6</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<FilthRate>6</FilthRate>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>9.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>tail</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.6</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>0.8</maxPreyBodySize>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHungerRate>0.41</baseHungerRate>
+			<baseHealthScale>1.4</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.7</wildness>
+			<petness>0.2</petness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<gestationPeriodDays>7.23</gestationPeriodDays>
+			<lifeExpectancy>18</lifeExpectancy>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.5, 1)</li>
+					<li>(2, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.33</minAge>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalExtinct</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RG_Megalenhydris</defName>
+		<label>megalenhydris</label>
+		<race>RG_Megalenhydris</race>
+		<combatPower>64</combatPower>
+		<ecoSystemWeight>0.45</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<drawSize>1.3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.2, 0.2)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
