@@ -1121,7 +1121,7 @@
 			<predator>true</predator>
 			<leatherDef>RG_DinosaursHideMedium</leatherDef>
 			<baseHungerRate>0.35</baseHungerRate>
-			<baseBodySize>2,2</baseBodySize>
+			<baseBodySize>2.2</baseBodySize>
 			<baseHealthScale>3.8</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>
 			<wildness>0.95</wildness>
