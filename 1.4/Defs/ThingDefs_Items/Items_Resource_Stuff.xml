@@ -17,7 +17,7 @@
         </statBases>
         <stuffProps>
             <color>(183,175,79)</color>
-            <commonality>0.15</commonality>
+            <commonality>0.1</commonality>
             <statFactors>
                 <MaxHitPoints>1.0</MaxHitPoints>
             </statFactors>
@@ -39,7 +39,7 @@
         </statBases>
         <stuffProps>
             <color>(172,198,93)</color>
-            <commonality>0.09</commonality>
+            <commonality>0.08</commonality>
             <statFactors>
                 <MaxHitPoints>1.0</MaxHitPoints>
             </statFactors>
@@ -61,7 +61,7 @@
         </statBases>
         <stuffProps>
             <color>(129,50,41)</color>
-            <commonality>0.06</commonality>
+            <commonality>0.05</commonality>
             <statFactors>
                 <MaxHitPoints>1.5</MaxHitPoints>
                 <Beauty>1.5</Beauty>
@@ -84,7 +84,7 @@
 		</graphicData>
 		<stuffProps>
 			<color>(92,73,60)</color>
-			<commonality>0.04</commonality>
+			<commonality>0.06</commonality>
 		</stuffProps>
 	</ThingDef>
 	<ThingDef ParentName="WoolBase">
@@ -97,13 +97,13 @@
 		</graphicData>
 		<stuffProps>
 			<color>(103,118,139)</color>
-			<commonality>0.04</commonality>
+			<commonality>0.05</commonality>
 		</stuffProps>
 		<statBases>
 			<StuffPower_Armor_Sharp>0.90</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>19</StuffPower_Insulation_Heat>
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>4</MarketValue>
 		</statBases>
 	</ThingDef>
 </Defs>

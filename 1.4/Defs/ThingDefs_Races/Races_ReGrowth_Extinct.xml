@@ -345,7 +345,7 @@
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyRhino/WoollyRhinoF</texPath>
-					<drawSize>2.10</drawSize>
+					<drawSize>2.1</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -357,7 +357,7 @@
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyRhino/dessicated_WoollyRhino</texPath>
-					<drawSize>2.10</drawSize>
+					<drawSize>2.1</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -383,7 +383,7 @@
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/ReGrowth/WoollyRhino/dessicated_WoollyRhino</texPath>
-					<drawSize>28</drawSize>
+					<drawSize>2.8</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
