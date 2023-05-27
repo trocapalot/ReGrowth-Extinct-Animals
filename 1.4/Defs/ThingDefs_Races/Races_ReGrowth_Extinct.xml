@@ -502,7 +502,7 @@
 				<eggFertilizedDef>RG_EggWoollyStegosaurus</eggFertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggProgressUnfertilizedMax>0.6</eggProgressUnfertilizedMax>
 				<eggCountRange>2~5</eggCountRange>
 			</li>
 			<li Class="CompProperties_Shearable">
@@ -802,6 +802,9 @@
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<leatherDef>Leather_Bird</leatherDef>
 			<herdAnimal>True</herdAnimal>
+			<wildBiomes>
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.5</AB_IdyllicMeadows>
+			</wildBiomes>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
@@ -826,6 +829,7 @@
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>RG_EggDodoEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>RG_EggDodoEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
@@ -1169,7 +1173,7 @@
 				<eggFertilizedDef>RG_EggArticDrakFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggProgressUnfertilizedMax>0.6</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_DoesntFlee"/>
@@ -1366,7 +1370,7 @@
 				<eggFertilizedDef>RG_EggVelociraptorFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggProgressUnfertilizedMax>0.6</eggProgressUnfertilizedMax>
 				<eggCountRange>1~3</eggCountRange>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
