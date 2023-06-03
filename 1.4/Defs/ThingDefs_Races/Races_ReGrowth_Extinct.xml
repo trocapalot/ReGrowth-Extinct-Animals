@@ -1343,6 +1343,9 @@
 					<li>(65,0)</li>
 				</points>
 			</ageGenerationCurve>
+			<wildBiomes>
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">1</AB_IdyllicMeadows>
+			</wildBiomes>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
