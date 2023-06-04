@@ -569,11 +569,11 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!--====================  Sabretooth Tiger ===========================-->
+	<!--====================  Sabertooth Tiger ===========================-->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>RG_SabretoothTiger</defName>
+		<defName>RG_SabertoothTiger</defName>
 		<label>smilodon</label>
-		<description>One of the most dangerous big cats to ever roam earth, smilodons are solitary hunters with two massive Sabretooths, sharp teeth and claws. They stalk prey from hidden positions before pouncing.\n\nWhile humans are not their normal diet, they won't turn down a meal of vulnerable human meat.</description>
+		<description>One of the most dangerous big cats to ever roam earth, smilodons are solitary hunters with two massive Sabertooths, sharp teeth and claws. They stalk prey from hidden positions before pouncing.\n\nWhile humans are not their normal diet, they won't turn down a meal of vulnerable human meat.</description>
 		<statBases>
 			<MoveSpeed>5.2</MoveSpeed>
 			<MarketValue>600</MarketValue>
@@ -695,9 +695,9 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="BigCatKindBase">
-		<defName>RG_SabretoothTiger</defName>
+		<defName>RG_SabertoothTiger</defName>
 		<label>smilodon</label>
-		<race>RG_SabretoothTiger</race>
+		<race>RG_SabertoothTiger</race>
 		<combatPower>150</combatPower>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
 		<lifeStages>
@@ -741,11 +741,11 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!--====================  Sabretooth Squirrel ===========================-->
+	<!--====================  Sabertooth Squirrel ===========================-->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>RG_SabretoothSquirrel</defName>
-		<label>Sabretooth squirrel</label>
-		<description>Technically not a formerly extinct species, the Sabre-tooth Squirrel was brought forth due to a combination of archiver errors and overenthusiastic lab workers who wanted to push the limits of science and improve public perception.\n\nThese squirrels are distinguished by their bushy tails and two overgrown, protruding front teeth which are used to dig into tough soil or crack open the hard shells of various types of nuts.</description>
+		<defName>RG_SabertoothSquirrel</defName>
+		<label>Sabertooth squirrel</label>
+		<description>Technically not a formerly extinct species, the Saber-tooth Squirrel was brought forth due to a combination of archiver errors and overenthusiastic lab workers who wanted to push the limits of science and improve public perception.\n\nThese squirrels are distinguished by their bushy tails and two overgrown, protruding front teeth which are used to dig into tough soil or crack open the hard shells of various types of nuts.</description>
 		<devNote>squirrel-1</devNote>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
@@ -863,39 +863,39 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>RG_SabretoothSquirrel</defName>
-		<label>Sabretooth squirrel</label>
-		<race>RG_SabretoothSquirrel</race>
+		<defName>RG_SabertoothSquirrel</defName>
+		<label>Sabertooth squirrel</label>
+		<race>RG_SabertoothSquirrel</race>
 		<combatPower>45</combatPower>
 		<ecoSystemWeight>0.4</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/SabertoothSquirrel</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/dessicated_SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/SabertoothSquirrel</texPath>
 					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/dessicated_SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
 					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/SabertoothSquirrel</texPath>
 					<drawSize>1.65</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabretoothSquirrel/dessicated_SabretoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
 					<drawSize>1.65</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
