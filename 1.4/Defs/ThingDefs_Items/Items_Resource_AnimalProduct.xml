@@ -39,12 +39,6 @@
 		<statBases>
 			<MarketValue>16</MarketValue>
 		</statBases>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>4</hatcherDaystoHatch>
-				<hatcherPawn>RG_Dodo</hatcherPawn>
-			</li>
-		</comps>
 	</ThingDef>
 	<ThingDef ParentName="EggFertBase">
 		<defName>RG_EggDodoEggFertilized</defName>
