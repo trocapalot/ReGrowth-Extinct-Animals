@@ -462,7 +462,7 @@
 			<baseBodySize>4.0</baseBodySize>
 			<baseHealthScale>4.2</baseHealthScale>
 			<baseHungerRate>1.43</baseHungerRate>
-			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+			<foodType>VegetarianRoughAnimal</foodType>
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
