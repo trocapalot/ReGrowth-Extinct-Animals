@@ -14,6 +14,7 @@
 			<li>RG_Megalenhydris</li>
 			<li>RG_Thrinaxodon</li>
 			<li>RG_Velociraptor</li>
+			<li>RG_SabertoothTiger</li>
 		</toggleablePawns>
 	</AnimalBehaviours.GenericToggleableAnimalDef>
 </Defs>
