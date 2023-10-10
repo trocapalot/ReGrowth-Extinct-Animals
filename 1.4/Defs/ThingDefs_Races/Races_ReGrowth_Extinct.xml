@@ -1680,7 +1680,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.5</maxPreyBodySize>
-			<baseBodySize>0.76</baseBodySize>
+			<baseBodySize>0.42</baseBodySize>
 			<baseHealthScale>0.7</baseHealthScale>
 			<baseHungerRate>0.16</baseHungerRate>
 			<foodType>CarnivoreAnimal, VegetarianRoughAnimal</foodType>

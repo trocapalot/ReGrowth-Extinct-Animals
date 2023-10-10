@@ -5,7 +5,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 				<value>
-					<RG_WoollyMammoth>0.5</RG_WoollyMammoth>
+					<RG_WoollyMammoth>0.4</RG_WoollyMammoth>
 					<RG_WoollyRhinoceros>0.2</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.2</RG_ArcticDrak>
 					<RG_WoollyStegosaurus>0.15</RG_WoollyStegosaurus>
@@ -17,7 +17,7 @@
 			<li MayRequire="ReGrowth.BOTR.AspenForest" Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="RG_AspenForest"]/wildAnimals</xpath>
 				<value>
-					<RG_WoollyMammoth>0.5</RG_WoollyMammoth>
+					<RG_WoollyMammoth>0.4</RG_WoollyMammoth>
 					<RG_WoollyRhinoceros>0.2</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.2</RG_ArcticDrak>
 					<RG_WoollyStegosaurus>0.15</RG_WoollyStegosaurus>
@@ -29,8 +29,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 				<value>
-					<RG_WoollyMammoth>0.5</RG_WoollyMammoth>
-					<RG_WoollyRhinoceros>0.5</RG_WoollyRhinoceros>
+					<RG_WoollyMammoth>0.4</RG_WoollyMammoth>
+					<RG_WoollyRhinoceros>0.3</RG_WoollyRhinoceros>
 					<RG_ArcticDrak>0.3</RG_ArcticDrak>
 					<RG_SabertoothSquirrel>1.2</RG_SabertoothSquirrel>
 					<RG_Velociraptor>0.4</RG_Velociraptor>
