@@ -876,7 +876,7 @@
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/Dessicated_sabertoothsquirrel</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -886,7 +886,7 @@
 					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/Dessicated_sabertoothsquirrel</texPath>
 					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -896,7 +896,7 @@
 					<drawSize>1.65</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/dessicated_SabertoothSquirrel</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/SabertoothSquirrel/Dessicated_sabertoothsquirrel</texPath>
 					<drawSize>1.65</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1747,7 +1747,7 @@
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/dessicated_Thrinaxodon</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>0.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1761,7 +1761,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/dessicated_Thrinaxodon</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1775,7 +1775,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/dessicated_Thrinaxodon</texPath>
+					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
